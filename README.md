@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PokeBowlDex
+
+Aren't you tired of wondering what your favorite glutenous pokemon favorite foods are? Me too! That's why PokeBowlDex is here to help. Born out of love for food and the mons (that's what the cool kids call them these days...right?) PokeBowlDex showcases some of the biggest, hungriest and delicious looking pokemons out there and their favorite foods. It's tailor made for those pokemon trainers that have to catch them all!... but after dinner
+
+## Features
+- Single-page application using Next.js App Router, Tailwind CSS for styling
+- Two screens: Pokédex list view (/) & Detail view (/pokemon/[name])
+- Shows Pokémon from the [PokéAPI](https://pokeapi.co/), no API key needed
+- Detail view attributes and a custom “favortie dish” field I personally added based on years of field research
+- Unit tests written with Jest/React Testing Library
+- Responsive design
+- Passed Lighthouse audit
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository then:
 
+   ```bash
+   npm install
+
+2. **Start App:**
+   ```bash
+   npm run dev
+
+## API Key
+- What API key? works out of the box
+
+## Testing
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Lighthouse audit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Screenshot 2025-04-03 at 17 31 24](https://github.com/user-attachments/assets/7e1a4298-42ee-4b38-8a0a-707e4c98200f)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Screenshot 2025-04-03 at 17 32 41](https://github.com/user-attachments/assets/2d028bc9-3a04-456b-b8e3-ec792674d094)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## DEMO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![demo](./public/demo.gif)
